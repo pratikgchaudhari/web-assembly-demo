@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> WebAssembly Math </title>
+        <link rel="stylesheet" type="text/css" href="./css/app.css">
+    </head>
+    <body>
+        <h2>Math using WebAssembly</h2>
+        <hr/>
+        <table class="wa-math-text">
+          <tr>
+            <td>
+                <table>
+                        <tr>
+                            <td>First Number:</td>
+                            <td><input type="number" id="firstNum"/></td>
+                        </tr>
+                        <tr>
+                            <td>Second Number:</td>
+                            <td><input type="number" id="secondNum"/></td>
+                        </tr>                            
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td><input class="wa-math-button" type="button" value="+" id="add" title="Add"/></td>
+                        <td><input class="wa-math-button" type="button" value="-" id="sub" title="Subtract"/></td>
+                        
+                    </tr>
+                    <tr>
+                        <td><input class="wa-math-button" type="button" value="*" id="mul" title="Multiply"/></td>
+                        <td><input class="wa-math-button" type="button" value="/" id="div" title="Division"/></td>
+                    </tr>                    
+                </table>
+            </td>
+          </tr>
+          <tr>
+            <td>Ans: <span id="answer"></span></td>
+          </tr>  
+        </table>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
