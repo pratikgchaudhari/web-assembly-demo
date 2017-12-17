@@ -1,0 +1,28 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "description": "A simple Math library implemented in WebAssembly",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log('Welcome to WebAssembly Math')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/chaudharipratikg/web-assembly-demo.git"
+  },
+  "keywords": [
+    "WebAssembly",
+    "wasm",
+    "wasm-math",
+    "math"
+  ],
+  "author": "Pratik Chaudhari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/chaudharipratikg/web-assembly-demo/issues"
+  },
+  "homepage": "https://gitlab.com/chaudharipratikg/web-assembly-demo#README",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
