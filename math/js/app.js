@@ -41,7 +41,7 @@ function getSecondNum(){
   return parseInt(document.getElementById('secondNum').value)
 }
 
-fetch('http://localhost:3000/wasm/math.wasm')
+fetch('http://localhost:3000/math/wasm/math.wasm')
   .then((response)=>{
     if(response.ok){
       return response.arrayBuffer()
